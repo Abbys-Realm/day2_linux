@@ -69,7 +69,7 @@
     - **Desktop Environment**: ***XFCE***
     - **Package Manager**: ***apt***
     - **Shell**: ***ZSH***
-2. **Parrot OS
+2. **Parrot OS**
     - Debian based Linux
     - Focus: security, privacy and development
     - Different versions for developers and hackers
@@ -81,7 +81,7 @@
     - .**Desktop Environment**: ***KD plasma***
     - **Package Manager**: ***packman***
     - **Shell**: ***FISH***
-4. Ubuntu
+4. **Ubuntu**
     - ***Desktop Environment**: ***gnome***
     - **Package Manager**: ***apt***
     - **Shell**: ***bash***
