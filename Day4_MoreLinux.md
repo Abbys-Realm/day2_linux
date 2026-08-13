@@ -111,4 +111,43 @@
         - **cut**: cltr+k  
         - **paste**:ctrl+u 
     - Append feature only exist in nano, to append:
-        - **ctrl + r **-> insert the filename or its path
+        - **ctrl + r ** ->** insert the filename or its path
+## Linux user management
+- Person who uses the computer : **user**
+- Every users have a group of their own (visible on linux )
+- Groups are useful because you can add many users to the group, when a user is created an associated group will be created for it as well
+- If username is User1, the group will be named after the user which is User1. For file sharing , you can add other users to the User1.
+- Users have their own file and applications
+- To know our user name(linux) : "**whoami**"
+- Users have power/priviledge
+- Any user on linux have their *own identifier number*(ID)
+- Two kinds of user
+    - **root**: by default installed when you install linux
+        - Have *all the power to do everything*, *can access everything*
+        - Only one root admin in the OS
+        - **ID: 0**(always), doesnt increment or change
+    - **normal**: the *first created user* on linux
+        - *less power than root*, only access their own personal file
+        - **ID: 1-999**
+        - For the first ever created normal users:  ID= 100, continue until 1999. The normal user and the thousandth (2000) or 1999th user doesnt have the same power
+- ***Sudo*** *(super user do)*: if normal users want to have a root access.
+    - The normal user can have all the power as the root
+    - **sudo yourCommand**
+    - Pass the permission denying
+#### Creating Users
+- Two ways
+    - **useradd** - simple to create user, wont ask for password
+        - Syntax : *sudo useradd username*
+        - Shell: *sh*
+    - **adduser** - detailed information required
+        - Syntax: *sudo adduser username*
+        - Shell: *bash*
+    - *Both commands exist in sbin* 
+    - User files are stores inside **/etc/passwd**, the folder will store the created username, id, path, shell and when it created except its password
+    - **/etc/skel** : have all *the essential files to be a user* when creating a new user
+    - **/etc/shadow** : *store user's password encrypted*, and other sensitive files. Accessible by the root user
+    - To check id for the logged in username : id command
+#### To access root user
+- *Command* : **sudo su**
+- To change a shell that your in: */bin/theShellYouWant*
+- To go put of the root user, command : **exit**
