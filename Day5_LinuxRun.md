@@ -120,7 +120,7 @@
 #### Common Linux Repository Errors
 1. **Could not get lock - /var/lib/apt/lists/lock**
     - Occurs when *2 different apt's run* or if there is *another apt process running on the background*.
-    - **Solution**: *restarting PC, closing the another apt process*
+    - **Solutions**: *restarting PC, closing the another apt process*
 2. **Could not open lock - /var/lib/dpkg/lock- frontend**
     - Occurs when you *forget to run apt with sudo*
 3. **Unable to locate package**
