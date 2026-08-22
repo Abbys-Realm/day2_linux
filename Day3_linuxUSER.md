@@ -2,7 +2,7 @@
 - Uses the desktop environment: *GNOME*
 - Previously knows as : ****Backtrack Linux****
 ### Kali Linux Tool Categories
-- It provides us with various tools for system testing and multiple other purposes.
+- It provides us with various tools for system testing and multiple other purposes.ls
 - Basic 15 categories:
 1. **Information Gathering**
     - Tools that exists for information gathering in systems, network and hosts.
@@ -40,7 +40,7 @@
 11. **Forensics/Digital Forensics**
      - For doing researches and investigating a cyber attacks
      - **Example**: **hashdeep**, foremost
-12. **Reporting Tools **
+12. **Reporting Tools**
      - Tools for report preparation after some forensic research and assessment of attacks, it has to be reported back
      - **Example**: cutycapt, maltego,**recordmydesktop**
 13. **Social Engineering tools**
